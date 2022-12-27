@@ -1,0 +1,28 @@
+package br.com.alurafood.pagamentos.dto;
+
+import br.com.alurafood.pagamentos.model.ItemDoPedido;
+import br.com.alurafood.pagamentos.model.enums.Status;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+@Getter
+@Setter
+public class PagamentoDto {
+
+    private Long id;
+    private BigDecimal valor;
+    private String nome;
+    private String numero;
+    private String expiracao;
+    private String codigo;
+    private Status status;
+    private Long formaDePagamentoId;
+    private Long pedidoId;
+    @JsonIgnore
+    private boolean ativo;
+    private List<ItemDoPedido> itens;
+}

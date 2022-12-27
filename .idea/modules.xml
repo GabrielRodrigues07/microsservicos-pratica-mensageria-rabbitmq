@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microsservicos-pratica-mensageria-rabbitmq.iml" filepath="$PROJECT_DIR$/.idea/microsservicos-pratica-mensageria-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagamentos/pagamentos.iml" filepath="$PROJECT_DIR$/pagamentos/pagamentos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pedidos/pedidos.iml" filepath="$PROJECT_DIR$/pedidos/pedidos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+    </modules>
+  </component>
+</project>
